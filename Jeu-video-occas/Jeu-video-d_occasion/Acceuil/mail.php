@@ -1,4 +1,8 @@
 <?php 
+error_reporting(E_ALL);
+// Passez la valeur ci-dessous de 0 à 1 pour afficher les erreurs
+ini_set("display_errors", 0);
+
 // Saisissez ici l'adresse mail du destinataire
 $destinataire = "craig03@hotmail.fr";
 
